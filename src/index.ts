@@ -1,5 +1,10 @@
 import { existsSync } from 'fs';
 
+/**
+ * Merges two provided tsconfig.json files into single TSConfigJSON object
+ * @param tsConfigAPath Provided path to tsconfig.json A
+ * @param tsConfigBPath Provided path to tsconfig.json A
+ */
 export function merge2TSConfigs(tsConfigAPath: string, tsConfigBPath: string) {
   if (!tsConfigAPath || !tsConfigBPath) {
     throw Error('Both tsconfig.json files have to be provided!');
