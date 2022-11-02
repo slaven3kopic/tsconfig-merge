@@ -1,0 +1,34 @@
+{
+  "name": "tsconfig-merge",
+  "version": "1.0.0",
+  "description": "Merges two provided tsconfig.json files into single TSConfigJSON object",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slaven3kopic/tsconfig-merge.git"
+  },
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "node"
+  ],
+  "typings": "index.d.ts",
+  "author": "Slaven Kopic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slaven3kopic/tsconfig-merge/issues"
+  },
+  "homepage": "https://github.com/slaven3kopic/tsconfig-merge#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.0",
+    "jest": "^29.2.2",
+    "prettier": "2.7.1",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.8.4"
+  }
+}
