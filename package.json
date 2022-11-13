@@ -1,6 +1,6 @@
 {
   "name": "tsconfig-merge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS package without any dependencies that merges two provided tsconfig.json files into a single object. Package merges all properties of `tsconfig.json` files, including the `extends` property.",
   "main": "index.js",
   "scripts": {
