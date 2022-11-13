@@ -1,21 +1,22 @@
 {
-    "compilerOptions": {
-        "allowJs": true,
-        "declaration": true,
-        "declarationMap": true,
-        "module": "CommonJS",
-        "emitDeclarationOnly": true,
-        "outDir": "dist",
-        "preserveConstEnums": true,
-        "removeComments": true,
-        "skipLibCheck": true,
-        "target": "es2015",
-        "types": ["node", "jest"]
-    },
-    "exclude": ["node_modules", "**/*.spec.ts", "dist"],
-    "include": ["src/**/*"],
-    "paths": {
-        "test": ["testA/*", "testB/*"],
-        "testC": ["testC/*"]
-    }
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "module": "CommonJS",
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "es2015",
+    "types": ["node", "jest"]
+  },
+  "exclude": ["node_modules", "**/*.spec.ts", "dist"],
+  "include": ["src/**/*"],
+  "paths": {
+    "test": ["testA/*", "testB/*"],
+    "testC": ["testC/*"]
+  }
 }

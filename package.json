@@ -1,11 +1,12 @@
 {
   "name": "tsconfig-merge",
   "version": "1.0.0",
-  "description": "Merges two provided tsconfig.json files into single TSConfigJSON object",
+  "description": "NodeJS package without any dependencies that merges two provided tsconfig.json files into a single object. Package merges all properties of `tsconfig.json` files, including the `extends` property.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "tsc",
+    "tsc": "tsc",
+    "build": "npx ts-node tools/build.ts",
     "format": "prettier --write ."
   },
   "repository": {
@@ -26,6 +27,7 @@
   "homepage": "https://github.com/slaven3kopic/tsconfig-merge#readme",
   "devDependencies": {
     "@types/jest": "^29.2.0",
+    "@types/node": "^18.11.9",
     "jest": "^29.2.2",
     "prettier": "2.7.1",
     "ts-jest": "^29.0.3",

@@ -1,6 +1,6 @@
 import { resolve } from 'path';
 import { merge2TSConfigs } from '../src/index';
-const result = require('./result.json')
+import * as result from './result.json';
 
 describe('merge2TSConfigs test', () => {
   test('self', () => {
